@@ -2,21 +2,40 @@
 
 # Basics 
 
-sudo apt-get install synaptic
-sudo apt-get synaptic
-->> install chromium
+sudo apt-get update
+sudo apt-get dist-upgrade
 
+sudo apt-get install synaptic
+sudo apt-get install lynis
+sudo apt-get install rkhunter
+sudo apt-get install zsh
+sudo apt-get install geany
+sudo apt-get install chromium-browser
+sudo apt-get install chromium-browser-l10n
+
+sudo apt-get install python3-pip
+sudo apt-get install dolphin
+sudo apt-get install terminator
 sudo apt-get install youtube-dl
 sudo apt-get install mplayer
+sudo apt-get install audacity
 
+# note to self: don't use [x] -y [z]
 
 # R
+sudo apt-get install r-base
 
 cd /etc/apt
 sudo nano sources.list
 
-deb http://ftp.snt.utwente.nl/pub/os/linux/ubuntu/ trusty-backports main restricted universe
+shft-ctrl-v:
 deb https://http://cran-mirror.cs.uu.nl//bin/linux/ubuntu xenial/
+
+ctrl-o
+ctrl-x
+
+# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+
 
 # R studio
 
@@ -24,4 +43,9 @@ https://www.rstudio.com/products/rstudio/download/
 
 
 
+# resources:
+https://cran.r-project.org/mirrors.html
+https://cran.r-project.org/web/packages/easypackages/vignettes/easypackages-vignette.html
+https://cran.rstudio.com/bin/linux/ubuntu/
+https://www.rstudio.com/products/rstudio/download/
 
