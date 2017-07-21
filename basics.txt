@@ -1,0 +1,27 @@
+
+
+# Basics 
+
+sudo apt-get install synaptic
+sudo apt-get synaptic
+->> install chromium
+
+sudo apt-get install youtube-dl
+sudo apt-get install mplayer
+
+
+# R
+
+cd /etc/apt
+sudo nano sources.list
+
+deb http://ftp.snt.utwente.nl/pub/os/linux/ubuntu/ trusty-backports main restricted universe
+deb https://http://cran-mirror.cs.uu.nl//bin/linux/ubuntu xenial/
+
+# R studio
+
+https://www.rstudio.com/products/rstudio/download/
+
+
+
+
