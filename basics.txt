@@ -4,6 +4,7 @@
 
 sudo apt-get update
 sudo apt-get dist-upgrade
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 
 sudo apt-get install synaptic
 sudo apt-get install lynis
@@ -22,6 +23,7 @@ sudo apt-get install audacity
 
 # note to self: don't use [x] -y [z]
 
+
 # R
 sudo apt-get install r-base
 
@@ -34,7 +36,7 @@ deb https://http://cran-mirror.cs.uu.nl//bin/linux/ubuntu xenial/
 ctrl-o
 ctrl-x
 
-# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 
 
 # R studio
