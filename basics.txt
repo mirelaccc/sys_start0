@@ -1,22 +1,35 @@
 
 
-# Basics 
+# Start0 
 
+# recurring
 sudo apt-get update
 sudo apt-get dist-upgrade
 sudo apt autoremove
+# /recurring
 
 sudo apt-get install synaptic
+
+
+# security 
 sudo apt-get install lynis
 sudo apt-get install rkhunter
+
+# productvity
 sudo apt-get install zsh
+sudo apt-get install terminator
+sudo apt-get install dolphin
 sudo apt-get install geany
+sudo apt-get install tmux
+
+# internet
 sudo apt-get install chromium-browser
 sudo apt-get install chromium-browser-l10n
 
+# devv
 sudo apt-get install python3-pip
-sudo apt-get install dolphin
-sudo apt-get install terminator
+
+# media
 sudo apt-get install youtube-dl
 sudo apt-get install mplayer
 sudo apt-get install audacity
