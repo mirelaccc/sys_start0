@@ -49,6 +49,7 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 
 https://www.rstudio.com/products/rstudio/download/
 
+# check: https://help.ubuntu.com/community/SecureApt
 
 ### Resources:
 https://cran.r-project.org/mirrors.html
