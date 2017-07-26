@@ -15,3 +15,9 @@ library(githubinstall)
 gh_install_packages("easypackages")
 library(easypackages)
 
+
+# MISC
+# https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html 
+# https://cran.r-project.org/web/packages/easypackages/vignettes/easypackages-vignette.html 
+# https://rdrr.io/github/ldepascalis/packages/ 
+# https://www.rdocumentation.org/packages/githubinstall/versions/0.2.1/topics/gh_install_packages
