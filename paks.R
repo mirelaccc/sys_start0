@@ -1,5 +1,8 @@
 # start0
 
+# inbash:
+> sudo apt-get install libcurl4-openssl-dev libssl-dev
+
 install.packages("devtools")
 library(devtools)
 install.packages("githubinstall")
@@ -26,10 +29,7 @@ my_paks_mob <- c("tmaptools", "tmap", "OpenStreetMap" , "OSMscale" , "ggmap", "m
                  , "raster", "trajectories", "geosphere", "rgdal", "classInt")
 
 
-
 ,"","","","","","","","","","","","","" 
-
-
 
 
 
