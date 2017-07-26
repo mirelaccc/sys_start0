@@ -12,6 +12,6 @@ library(devtools)
 install.packages("githubinstall")
 library(githubinstall)
 # to enable easy package installing & loading:
-gh_install_packages("packages")
-library(packages)
+gh_install_packages("easypackages")
+library(easypackages)
 
