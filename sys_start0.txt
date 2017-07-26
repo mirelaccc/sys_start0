@@ -63,3 +63,6 @@ https://www.rstudio.com/products/rstudio/download/
 
 https://www.r-bloggers.com/rstudio-pushing-to-github-with-ssh-authentication/ 
 https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN
+https://support.rstudio.com/hc/en-us/articles/206827897-Secure-Package-Downloads-for-R
+https://stackoverflow.com/questions/10255082/installing-r-from-cran-ubuntu-repository-no-public-key-error
+
