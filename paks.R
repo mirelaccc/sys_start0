@@ -21,10 +21,11 @@ my_paks_s0 <- c("dplyr", "RMySQL", "data.table", "RJSONIO", "gdata", "varhandle"
 my_paks_unstr_data <- c("RJSONIO", "XML") 
 my_paks_viz <- c("ggplot2", "grDevices", "scales", "colorspace", "RColorBrewer", "grid", "graphics")
 my_paks_net <- c("RBioFabric", "HiveR", "igraph", "visNetwork", "ndtv")
-my_paks_mob <- c("tmaptools", "tmap", "OpenStreetMap" , "OSMscale"
-                 , "ggmap", "mapmate" , "mapproj", "mapdata", "maps", "maptools"
-                 , "mapproj", "mapdata", "maps", "sp", "XML", "plotKML"
+my_paks_mob <- c("tmaptools", "tmap", "OpenStreetMap" , "OSMscale" , "ggmap", "mapmate" , "mapproj"
+                 , "mapdata", "maps", "maptools", "mapproj", "mapdata", "maps", "sp", "XML", "plotKML"
                  , "raster", "trajectories", "geosphere", "rgdal", "classInt")
+
+
 
 ,"","","","","","","","","","","","","" 
 
