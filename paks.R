@@ -9,20 +9,33 @@ library(RBioFabric)
 # package blocks
 # grouping packages per work-type
 
-my_paks_s0 <- c("dplyr", "RMySQL", "data.table", "RJSONIO", "gdata", "varhandle", "stats", "utils", "methods", "RCurl " )
-packages(my_paks_s0)
+install.packages(c("dplyr", "RMySQL", "data.table", "RJSONIO", "gdata", "varhandle", "stats", "utils", "methods", "RCurl " ))
 
-my_paks_unstr_data <- c("RJSONIO", "XML") 
-packages(my_paks_unstr_data)
+install.packages(c("RJSONIO", "XML"))
 
-my_paks_viz <- c("ggplot2", "grDevices", "scales", "colorspace", "RColorBrewer", "grid", "graphics")
-packages(my_paks_viz)
+install.packages(c("ggplot2", "grDevices", "scales", "colorspace", "RColorBrewer", "grid", "graphics"))
 
-my_paks_net <- c("RBioFabric", "HiveR", "igraph", "visNetwork", "ndtv")
-packages(my_paks_net)
+install.packages(c("RBioFabric", "HiveR", "igraph", "visNetwork", "ndtv"))
 
-my_paks_mob <- c("tmaptools", "tmap", "OpenStreetMap" , "OSMscale" , "ggmap", "mapmate" , "mapproj"
+install.packages(c("tmaptools", "tmap", "OpenStreetMap" , "OSMscale" , "ggmap", "mapmate" , "mapproj"
                  , "mapdata", "maps", "maptools", "mapproj", "mapdata", "maps", "sp", "XML", "plotKML"
-                 , "raster", "trajectories", "geosphere", "rgdal", "rgeos", "leaflet", "spatstat", "gstat", "classInt")
-packages(my_paks_mob)
+                 , "raster", "trajectories", "geosphere", "rgdal", "rgeos", "leaflet", "spatstat", "gstat", "classInt"))
+
+
+
+# geos soap, no fixes:
+
+
+# geos soap, no fixes:
+install.packages('rgeos', type="source")
+install_packages(c("geos", "proj", "gdal"))
+library(geos)
+library(proj)
+library(gdal)
+install.packages('rgdal', type="source")
+
+# http://trac.osgeo.org/geos/
+# https://cran.r-project.org/web/packages/rgeos/index.html
+install.packages("/home/bigdata09/projs/mob/rgeos_0.3-23.tar", repos = NULL, type="source")
+install.packages("/home/bigdata09/projs/mob/geos-3.6.2.tar", repos = NULL, type="source")
 
