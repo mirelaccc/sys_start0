@@ -4,6 +4,10 @@
 # if needed:
 # .libPaths( c( .libPaths(), "~/a/b/c") )
 
+curdir <- getwd()
+setwd(curdir)
+
+
 # in bash:
 #> sudo apt-get install libcurl4-openssl-dev libssl-dev
 
