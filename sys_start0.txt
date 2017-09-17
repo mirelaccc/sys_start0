@@ -49,7 +49,11 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 
 ### R studio
 
-https://www.rstudio.com/products/rstudio/download/
+# grab a .deb file https://www.rstudio.com/products/rstudio/download/
+
+cd /Dowloads
+sudo dpkg -i
+rm *.deb #if only that particular deb is in the folder
 
 # check: https://help.ubuntu.com/community/SecureApt
 
@@ -65,4 +69,20 @@ https://www.r-bloggers.com/rstudio-pushing-to-github-with-ssh-authentication/
 https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN
 https://support.rstudio.com/hc/en-us/articles/206827897-Secure-Package-Downloads-for-R
 https://stackoverflow.com/questions/10255082/installing-r-from-cran-ubuntu-repository-no-public-key-error
+
+### Chrome
+#https://askubuntu.com/questions/510056/how-to-install-google-chrome
+
+# Add Key:
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+
+# Set repository:
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+
+# Install package:
+sudo apt-get update 
+sudo apt-get install google-chrome-stable
+
+
+
 
